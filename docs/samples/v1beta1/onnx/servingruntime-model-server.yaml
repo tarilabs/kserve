@@ -5,6 +5,7 @@ metadata:
     openshift.io/display-name: OpenVINO Model Server
     opendatahub.io/recommended-accelerators: '["nvidia.com/gpu"]'
   name: kserve-ovms
+  namespace: kubeflow-user-example-com
   labels:
     opendatahub.io/dashboard: 'true'
 spec:

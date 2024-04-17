@@ -4,6 +4,7 @@ metadata:
   annotations:
     openshift.io/display-name: example
   name: example
+  namespace: kubeflow-user-example-com
   labels:
     opendatahub.io/dashboard: 'true'
 spec:
